@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camear2_tutorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="selfie.app.com.tutorial.Camear2TutorialActivity">
+
+    <TextureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textureView"
+        android:layout_alignParentTop="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/video_online_button"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="69dp"
+        android:id="@+id/videoButton" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/camera_button"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="29dp"
+        android:id="@+id/imageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
